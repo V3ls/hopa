@@ -1,0 +1,787 @@
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgb(10, 15, 10); */
+    color: #21243D;
+}
+    .page{
+        flex: 1 1 auto;
+        padding: 90px 0 0 0;
+    }
+    .container{
+        max-width: 856px;
+        margin: 0 auto;
+        display: flex;
+        
+    }
+    .hello_content{
+        flex: 1 1 auto;
+        padding: 0 110px 0 0 ;
+        
+    }
+    
+    .hello_content h1{
+        font-size: 44px;
+        line-height: 136%;
+        color: #21243D;
+        font-family: 'Heebo', sans-serif;
+        margin: 0 0 25px 0;
+        font-weight: 500;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 143%;
+        color: #21243D;
+        font-family: 'Heebo', sans-serif;
+        margin: 0 0 38px 0;
+    }
+    .hello_avatar{
+        width: 243px;
+        height: 243px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex: 0 0 243px;
+    }
+    .hello_avatar img{
+        max-width: 100%;
+        
+        
+    }
+
+    .btn{
+        background-color: #FF6464;  
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        line-height: 145%;
+        height: 47px; 
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+        margin: 0 0 55px 0;
+        transition: background-color 0.3s ease;
+        
+    }
+    .btn:hover{
+        background-color: #df7272;  
+    }
+    .hello{ 
+        padding: 157px 0 0 0;
+    }
+    
+    /* Второй раздел нагео блядства */
+    .two_section{
+        width: 1150px;
+        height: 412px;
+        background: #EDF7FA;
+        margin: 0 auto;
+    }
+   .two_section >  .hed{
+        width: 854px;
+        justify-content: space-between;
+        height: 30px;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+    .hed p{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 47px;
+    }
+    .hed a{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #00A8CC; 
+    margin-top: 68px;
+    }
+    /* p, a{
+        margin-top: 47px;
+    } */
+    
+    .two_block{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 854px;
+    }
+    .one_left_block{
+        width: 418px;
+        height: 295px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .one_left_block h3{
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 38px;
+        color: #21243D;
+        margin-left: 23px;
+        margin-top: 21px;
+    }
+    .stroka P:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+        position: relative;
+    }
+    .stroka{
+        display: flex;
+        flex-direction: row;
+        margin-left: 23px;
+        margin-top: 27px;
+    }
+    .stroka P:nth-child(1)::after{
+        
+        content: "";
+        width: 2px;
+        height: 21px;
+        position: absolute;
+        background-color: #21243D;
+        top: 0;
+        left: 128px;
+        
+    }
+
+    .stroka P:nth-child(2){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+    }
+    .stroka P:nth-child(2){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+        position: relative;
+        margin-left: 55px;
+    }
+    .one_left_block p:nth-child(3){
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        margin-left: 23px;
+        margin-top: 20px;
+    }
+    /* Второй Блок */
+    .two_right_block{
+        width: 418px;
+        height: 295px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .two_right_block h3{
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 38px;
+        color: #21243D;
+        margin-left: 23px;
+        margin-top: 21px;
+    }
+    .stroka P:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+        position: relative;
+    }
+    .stroka{
+        display: flex;
+        flex-direction: row;
+        margin-left: 23px;
+        margin-top: 27px;
+    }
+    .stroka P:nth-child(1)::after{
+        
+        content: "";
+        width: 2px;
+        height: 21px;
+        position: absolute;
+        background-color: #21243D;
+        top: 0;
+        left: 128px;
+        
+    }
+
+    .stroka P:nth-child(2){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+    }
+    .stroka P:nth-child(2){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #21243D;
+        position: relative;
+        margin-left: 55px;
+    }
+    .two_right_block p:nth-child(3){
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        margin-left: 23px;
+        margin-top: 20px;
+    }
+    .three{
+        width: 1150px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+    }
+    .three_block{
+        display: flex;
+        width: 858px;
+        height: 828px;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .three_block h3{
+        margin-top: 34px;
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 60px;
+        color: #21243D;
+    }
+    .designing{
+        display: flex;
+        flex-direction: row;
+        margin-top: 22px; 
+        border-bottom: 1px solid #E0E0E0;
+        width: 858px;
+        height: 204px; 
+    }
+    .designing_slova{
+        display: flex;
+        flex-direction: column;
+    }
+    .designing_slova p:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+        margin-left: 18px;
+        margin-top: -10px;
+    }
+    .twenty_year{
+        display: flex;
+        flex-direction: row;
+    }
+    .twenty_year a:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #142850;
+        padding: 7px 10px 20px 10px;
+        width: 62px;
+        height: 25px;   
+        border-radius: 37px 37px 37px 37px;
+        -webkit-border-radius: 37px 37px 37px 37px;
+        -moz-border-radius: 37px 37px 37px 37px;  
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+    .twenty_year h4{
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 29px;
+        color: #8695A4;
+        margin-top: 18px;
+        margin-left: 27px;
+    }
+    
+    .designing_slova p{
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        margin-left: 18px;
+        margin-top: 22px;
+    }
+    /* Вторая блок в 3 секции */
+    .Vibrant{
+        display: flex;
+        flex-direction: row;
+        margin-top: 22px; 
+        border-bottom: 1px solid #E0E0E0;
+        width: 858px;
+        height: 204px; 
+    }
+    .Vibrant_slova{
+        display: flex;
+        flex-direction: column;
+    }
+    .Vibrant_slova p:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+        margin-left: 18px;
+        margin-top: -1px;
+    }
+    .twenty_year1{
+        display: flex;
+        flex-direction: row;
+        margin-top: -5px;
+    }
+    .twenty_year1 a:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #142850;
+        padding: 7px 10px 20px 10px;
+        width: 62px;
+        height: 25px;   
+        border-radius: 37px 37px 37px 37px;
+        -webkit-border-radius: 37px 37px 37px 37px;
+        -moz-border-radius: 37px 37px 37px 37px;  
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+    .twenty_year1 h4{
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 29px;
+        color: #8695A4;
+        margin-top: 18px;
+        margin-left: 27px;
+    }
+    
+    .Vibrant_slova p{
+        fofont-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        margin-left: 18px;
+        margin-top: 22px;
+    }
+    /* Третий блок в третьей сексии */
+    .thertysix{
+        display: flex;
+        flex-direction: row;
+        margin-top: 42px;
+        border-bottom: 1px solid #E0E0E0;
+        width: 858px;
+        height: 204px; 
+    }
+    .thertysix_slova{
+        display: flex;
+        flex-direction: column;
+    }
+    .thertysix_slova p:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        color: #21243D;
+        margin-left: 18px;
+        margin-top: -1px;
+    }
+    .twenty_year1{
+        display: flex;
+        flex-direction: row;
+        margin-top: -5px;
+    }
+    .twenty_year1 a:nth-child(1){
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #142850;
+        padding: 7px 10px 20px 10px;
+        width: 62px;
+        height: 25px;   
+        border-radius: 37px 37px 37px 37px;
+        -webkit-border-radius: 37px 37px 37px 37px;
+        -moz-border-radius: 37px 37px 37px 37px;  
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+    .twenty_year1 h4{
+        font-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 20px;
+        line-height: 29px;
+        color: #8695A4;
+        margin-top: 18px;
+        margin-left: 27px;
+    }
+    
+    .thertysix_slova p{
+        fofont-family: 'Heebo', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #21243D;
+        margin-left: 21px;
+        margin-top: 35px;
+    }
+    .under_footer{
+        width: 1150px;
+        height: 250px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 230px;
+        height: 21px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 115px;
+    }
+    .under_footer h3{
+        font-family: Heebo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #21243D;
+        margin-top: 30px; 
+    }
+    @media (max-width:850px){
+    
+}
+
+
+.page {
+    padding: 90px 0px 30px 0px;
+}
+/* .page_section {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.page_section_1 {
+    background-color: rgb(214, 167, 105);
+}
+
+.page_section_2 {
+    background-color: cornflowerblue;
+}
+
+.page_section_3 {
+    background-color: rgb(93, 151, 54);
+}
+.page_title {
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+}
+.Page_text {
+    font-size: 16px;
+    line-height: 150%;
+}
+.Page_text p {
+    margin: 0px 0px 20px 0px;
+}
+
+.page_sub-title {
+    font-size: 30%;
+    margin: 0px 0px  20px 0px;
+} */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(235, 160, 160);
+}
+.header_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+}
+.header_logo {
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+.header_menu {
+}
+.menu {
+}
+.menu_icon {
+}
+.menu_body {
+}
+.menu_list {
+    
+}
+.menu_list > li{
+    position: relative;
+    margin: 0px 0px 0px 20px;
+
+}
+.menu_link {
+    color: #fff;
+    font-size: 18px;
+}
+.menu_link:hover{
+    text-decoration: underline;
+
+}
+.menu_sab-list {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #000;
+    padding: 15px;
+    min-width: 200px;
+    visibility: hidden;
+}
+.menu_sab-list > li{
+    margin: 0px 0px 10px 0px;
+}
+.menu_sab-list > li:last-child{
+    margin: 0;
+}
+.menu_sub-link {
+    color: #fff;
+}
+.menu_sub-link:hover{
+    text-decoration: underline;
+}
+.menu_arrow{
+    display:none;
+}
+/* ---------------------------------- */
+body._pc .menu_list > li:hover .menu_sab-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px, ) ;
+    pointer-events: all;
+}
+body._touch .menu_list > li{
+    display: flex;
+    align-items: center;
+}
+body._touch .menu_link{
+    flex: 1 1 auto;
+}
+
+body._touch .menu_arrow{
+    display: block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #fff;
+    transition: transform 0.3s ease 0s;
+    width: 0;
+    height: 0;
+    margin: 0px 0px 0px 5px;
+}
+/* Работа с с тачскринами, у li класс такой, потому что при нажатии, работает скримпт джс
+._activr */
+body._touch .menu_list > li._active .menu_sab-list{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px, ) ;
+    pointer-events: all;
+}
+body._touch .menu_list > li._active .menu_arrow{
+    transform: rotate(-180deg);   
+}
+
+
+
+
+
+@media (min-width:767px){
+    .menu_list{
+        display: flex;
+        align-items: center;
+    }
+    .menu_list > li{
+        padding: 10px 0;
+    }
+    .menu_sab-list{
+        transform:translate(0px, 10%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease 0s;
+        pointer-events: none;
+    }
+}
+@media (max-width:767px) {
+    .menu_icon{
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+        
+    }
+    .menu_icon span,
+    .menu_icon::before,
+    .menu_icon::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease;
+        background-color: #fff;
+    }
+    .menu_icon::before,
+    .menu_icon::after {
+        content: "";
+    }
+    .menu_icon::before{
+        top: 0;
+    }
+    .menu_icon::after{
+        bottom: 0;
+    }
+    .menu_icon span{
+        top: 50%;
+        transform:scale(1) translate(0px, -50%) ;
+    }
+
+    /* Анимация бургера, когда он крестик */
+    .menu_icon._active span{
+        transform: scale(0) translate(0px, -50%) ;
+    }
+    .menu_icon._active::before{
+        top: 50%;
+        transform: rotate(-45deg) translate(0px, -50%) ;
+    }
+    .menu_icon._active::after{
+        top: 50%;
+        transform: rotate(45deg) translate(0px, 50%) ;
+    }
+        /* описание, как будет уходить бургерное меню при нажатиии */
+     .menu_body {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        /* background-color: black; */
+        background-image: url(gr.jpg);
+        padding: 100px 30px 30px 30px;
+        transition: right 0.3s ease 0s;
+        overflow: auto;
+    } 
+    /* Блокировка скорола, когда бургер активен */
+    body._lock{
+        overflow: hidden;
+    }
+    .menu_body._active{
+        right: 0;
+    }
+        /* Хед при мобтльноми размере экрана */
+    .menu_body::before{
+        content: "";
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 78px;
+        background-color: rgb(235, 160, 160);
+        z-index: 2;
+    }
+    .menu_list > li{
+        flex-wrap: wrap;
+        margin: 0px 0px 30px 0px ;
+    }
+    .menu_list > li:last-child{
+        margin-bottom: 0;
+    }
+    .menu_list > li._active .menu_sab-list{
+        display: block;
+    }
+    .menu_link{
+        font-size: 24px;
+    }
+    .menu_sab-list{
+        position: relative;
+        /* background-color: #fff; */
+        background-image: url(gr2.png);
+        background-size: cover;
+        flex: 1 1 100%;
+        margin: 20px 0px 0px 0px;
+        display: none;
+    }
+    .menu_sub-link{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+}
